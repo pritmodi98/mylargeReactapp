@@ -1,7 +1,21 @@
-.active-nav-link{
-    font-weight: 800;
+.navMargin {
+	margin: 0 70px;
 }
-.navbar-brand-link,:hover{
-    text-decoration: none;
-    color: black;
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(87, 9, 43);
+    font-weight: 700;
+}
+
+.linkMargin {
+	margin: 0 10px;
+}
+
+.active-nav-link {
+	font-weight: 800;
+}
+.navbar-brand-link,
+:hover {
+	text-decoration: none;
+	color: black;
 }

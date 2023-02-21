@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class RouteDisplay extends PureComponent {
     render() {
         const { img, path } = this.props;
-        console.log(img)
+        // console.log(img)
         return (
             <Link to={path}>
                 <div className="RouteDisplay">
